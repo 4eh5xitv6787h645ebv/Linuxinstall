@@ -38,7 +38,7 @@ docker run -d \
   --restart=unless-stopped \
   -v /home/docker/portainer/data/:/data \
   -v /var/run/docker.sock:/var/run/docker.sock \
-  portainer/portainer-ce:latest
+  portainer/portainer-ce:latest &&
 
 # Run Sonarr in a Docker container
 docker run -d \
